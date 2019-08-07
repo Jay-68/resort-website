@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  padding-top: 20px;
+  width: 95%;
+  margin: auto;
+  background-image: url('https://images.pexels.com/photos/1267473/pexels-photo-1267473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-color: #6e8a84;
+  background-size: cover;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: solid 2px grey;
+}
+
+nav>ul>li a {
+  padding: 5px;
+  text-decoration: none;
+  color: dimgrey;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav>ul>li a:hover {
+  color: #6e32aa;
+  border-bottom: solid 2px #6e32aa;
+}
+
+nav>ul>li {
+  text-align: right;
+  display: inline-block;
+}
+
+#quote {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Gochi Hand', cursive;
+  width: auto;
+  margin-top: 80px;
+}
